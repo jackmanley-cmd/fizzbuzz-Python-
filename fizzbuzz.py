@@ -1,16 +1,18 @@
-def fizzbuzz(number):
+# Loop through numbers from 1 to 100
+for number in range(1, 101):
+
     # Check if the number is divisible by both 3 and 5
     if number % 3 == 0 and number % 5 == 0:
-        return "FizzBuzz"
+        print("FizzBuzz")
+
+    # Check if the number is divisible by 3
     elif number % 3 == 0:
-        return "Fizz"
+        print("Fizz")
+
+    # Check if the number is divisible by 5
     elif number % 5 == 0:
-        return "Buzz"
+        print("Buzz")
+
+    # If none of the conditions are met, print the number
     else:
-        return str(number)
-
-
-# Run FizzBuzz for numbers 1 to 100
-if __name__ == "__main__":
-    for number in range(1, 101):
-        print(fizzbuzz(number))
+        print(number)
