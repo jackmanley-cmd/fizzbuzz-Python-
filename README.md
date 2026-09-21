@@ -4,23 +4,14 @@ A simple Python implementation of the classic FizzBuzz programming challenge.
 
 ## About
 
-FizzBuzz is a common programming exercise used to demonstrate basic programming concepts such as:
-
-- Variables
-- Functions
-- Conditional statements
-- Loops
-- Modulo (`%`)
-- Return values
-
-## How It Works
+FizzBuzz is a common programming exercise used to demonstrate basic Python concepts such as loops, conditional statements and the modulo operator.
 
 The program checks numbers from 1 to 100:
 
-- Multiples of 3 return `Fizz`
-- Multiples of 5 return `Buzz`
-- Multiples of both 3 and 5 return `FizzBuzz`
-- All other numbers return the number itself
+- If the number is divisible by 3 and 5, it prints `FizzBuzz`
+- If the number is divisible by 3, it prints `Fizz`
+- If the number is divisible by 5, it prints `Buzz`
+- Otherwise, it prints the number
 
 ## Example
 
@@ -35,6 +26,8 @@ Fizz
 8
 Fizz
 Buzz
-...
+11
+12
+Fizz
 14
 FizzBuzz
