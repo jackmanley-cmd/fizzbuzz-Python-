@@ -31,3 +31,8 @@ Buzz
 Fizz
 14
 FizzBuzz
+```
+
+## What I Learned
+
+This project helped me practise using Python loops, conditional statements and the modulo operator. I also developed a better understanding of how to structure and document code using GitHub.
